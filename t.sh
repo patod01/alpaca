@@ -1,16 +1,21 @@
-#!/bin/sh
+# /etc/profile.d
+# setup-desktop
 
-case "$1" in
-    video/brightnessup)
-        # aumenta el brillo de la pantalla
-        echo $(($(cat /sys/class/backlight/acpi_video0/brightness)+1)) > /sys/class/backlight/acpi_video0/brightness
-        ;;
-    video/brightnessdown)
-        # disminuye el brillo de la pantalla
-        echo $(($(cat /sys/class/backlight/acpi_video0/brightness)-1)) > /sys/class/backlight/acpi_video0/brightness
-        ;;
-esac
+# /etc/apk/repositories
+# /etc/motd
 
-# event=video.*
-# action=/etc/acpi/handler.sh %e
-# rc-service acpid restart
+# rc-update del lightdm
+# /boot/grub/
+# mouse - desde wiki de arch
+apk add libinput xinput
+
+# sound - wiki alpine
+
+
+# File
+#! /bin/ash
+
+#echo $1 > /sys/class/backlight/intel_backlight/brightness
+# export PATH=$PATH:  /Pcript
+# lit 1
+# xinput set-prop 11 337 1
