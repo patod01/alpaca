@@ -1,0 +1,18 @@
+[
+    { "keys": ["ctrl+k", "ctrl+m"], "command": "toggle_minimap" },
+    // oldpc { "keys": ["ctrl+m"], "command": "toggle_comment" },
+    { "keys": ["ctrl+alt+k", "ctrl+alt+o"], "command": "prompt_select_workspace" },
+    { "keys": ["ctrl+alt+k", "ctrl+alt+i"], "command": "close_workspace" },
+    { "keys": ["ctrl+alt+t", "ctrl+alt+u"], "command": "upper_case" }, // overl
+    { "keys": ["ctrl+alt+t", "ctrl+alt+l"], "command": "lower_case" }, // overl
+    { "keys": ["ctrl+alt+t", "ctrl+alt+s"], "command": "swap_case" },
+    { "keys": ["ctrl+alt+t", "ctrl+alt+t"], "command": "title_case" },
+    { "keys": ["ctrl+alt+t", "ctrl+alt+r"], "command": "reset_font_size" },
+    { "keys": ["ctrl+alt+o"], "command": "clone_file" },
+    // oldpc { "keys": ["ctrl+alt+l"], "command": "split_selection_into_lines" },
+    { "keys": ["ctrl+alt+f"], "command": "open_dir", "args": { "dir": "$file_path", "file": "$file_name" } },
+    { "keys": ["ctrl+alt+q"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+    // { "keys": ["ctrl+alt+k", "ctrl+alt+h"], "command": "open_file", "args": {"file": "C:/Users/Larry/Documents/work/MiMun/pizi/iziShell/iziGit.txt"} },
+    { "keys": ["ctrl+tab"], "command": "next_view" },
+    // { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+]
