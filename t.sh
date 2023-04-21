@@ -1,4 +1,3 @@
-# /etc/profile.d
 # setup-desktop
 
 # /etc/apk/repositories
@@ -12,10 +11,12 @@ apk add libinput xinput
 # sound - wiki alpine
 
 
-# File
+# fx Files
 #! /bin/ash
-
 #echo $1 > /sys/class/backlight/intel_backlight/brightness
-# export PATH=$PATH:  /Pcript
+#cat /sys/class/power_supply/BAT0/capacity
+
+# /etc/profile.d/truco.sh
+# export PATH=$PATH:/pcript
 # lit 1
-# xinput set-prop 11 337 1
+# xinput set-prop 10 314 1
