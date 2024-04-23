@@ -1,3 +1,9 @@
+# new git ssh key
+# ssh-keygen -t ed25519 -C "MAIL"
+# eval "$(ssh-agent -s)"
+# ssh-add PRIV_KEY
+# ssh -T git@github.com
+
 # setup-desktop
 
 # /etc/apk/repositories
