@@ -56,3 +56,10 @@ para partir la pantalla en subl...
 
 resulta que no habian mas atajos interesantes, o no los pude
 encontrar. Hoy, subl esta completo!
+
+
+
+## __2024-06-01__
+
+despues de a;os, tengo completo mi tutorial de ssh en git. Espero
+recordarlo antes de hacerlo por tercera vez...
