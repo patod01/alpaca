@@ -1,0 +1,22 @@
+// v1.0
+// Outer UI config
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+     "variables":
+     {
+          "font_size": 11,
+          "font_size_lg": 10,
+     },
+     "rules":
+     [
+          {
+               "class": "sidebar_tree",
+               "indent": 13,
+               "indent_offset": -13,
+          },
+          {
+               "class": "disclosure_button_control",
+               "layer0.opacity": 0,
+          },
+     ]
+}

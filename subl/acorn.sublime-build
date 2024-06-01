@@ -1,3 +1,4 @@
+// v1.0
 {
-     "shell_cmd": "run",
+     "shell_cmd": "echo hola",
 }

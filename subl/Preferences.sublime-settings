@@ -1,12 +1,17 @@
-// Colors: one dark, cyanide, ayu
-// themes: soda, sodarized, sienna, (a file icon)
+// v1.0
+// Code UI config
 {
-	"color_scheme": "Monokai.sublime-color-scheme",
+	"ignored_packages": ["Vintage"],
+	"color_scheme": "Packages/Theme - One Dark/Widget - One Dark.tmTheme",
+	"theme": "Default.sublime-theme",
+	// oldpc "color_scheme": "Monokai.sublime-color-scheme",
 	"tab_size": 5,
 	"translate_tabs_to_spaces": true,
-	"use_tab_stops": true,
+	// test "use_tab_stops": true,
 	"word_wrap": false,
 	"wrap_width": 69,
 	"rulers": [69, 80],
-	"font_size": 11,
+	// oldpc "font_size": 11,
+	// default "index_files": true,
+	"close_deleted_files": false,
 }
