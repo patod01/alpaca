@@ -1,8 +1,8 @@
-// v1.0
+// v1.1
 [
     { "keys": ["ctrl+k", "ctrl+m"], "command": "toggle_minimap" },
     // oldpc { "keys": ["ctrl+m"], "command": "toggle_comment" },
-    { "keys": ["ctrl+alt+k", "ctrl+alt+o"], "command": "prompt_select_workspace" },
+    // oldpc { "keys": ["ctrl+alt+k", "ctrl+alt+o"], "command": "prompt_select_workspace" },
     { "keys": ["ctrl+alt+k", "ctrl+alt+i"], "command": "close_workspace" },
     { "keys": ["shift+alt+t", "shift+alt+u"], "command": "upper_case" }, // overl
     { "keys": ["shift+alt+t", "shift+alt+l"], "command": "lower_case" }, // overl
@@ -16,6 +16,8 @@
     // set your main help { "keys": ["ctrl+alt+k", "ctrl+alt+h"], "command": "open_file", "args": {"file": "/your/help/file/iziGit.txt"} },
     { "keys": ["ctrl+tab"], "command": "next_view" },
     { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
-    // linux default { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
-    // linux default { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
+    // win default:
+    { "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
+    // win default:
+    { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
 ]

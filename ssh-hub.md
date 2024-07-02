@@ -4,7 +4,7 @@
 
 Default branch use to be ready and is global, just paste the
 following:
-```
+```shell
 git config --global init.defaultbranch "patriarch"
 git config --global user.name "patod01"
 git config --global user.email "patocv2@hotmail.com"
@@ -14,7 +14,7 @@ git config --global core.editor "vim"
 ## Github
 
 Creating a new ssh key:
-```
+```bash
 ssh-keygen -t ed25519 -C "MAIL"
 ```
 
