@@ -1,8 +1,8 @@
-// v1.0
+// v1.1
 // Code UI config
 {
 	"ignored_packages": ["Vintage"],
-	"color_scheme": "Packages/Theme - One Dark/Widget - One Dark.tmTheme",
+	"color_scheme": "ayu-mirage.sublime-color-scheme",
 	"theme": "Default.sublime-theme",
 	// oldpc "color_scheme": "Monokai.sublime-color-scheme",
 	"tab_size": 5,

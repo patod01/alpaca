@@ -117,3 +117,21 @@ Por cierto... el truco del 15 del 6 no funciona...
 Hoy hay nueva recopilacion de subl. Creo que podria necesitar
 reordenar la disposicion de carpetas en este repositorio... Esta
 quedando bueno! Que se haga el commit.
+
+## __2024-07-06__
+
+Anoche instalamos steam en linux. Este, por si solo, instalo las
+dependencias necesarias para correr juegos de otras plataformas, solo
+hay que ir a configuracion y activar la segunda opcion de
+compatibilidad. Lastima que el juego se convirtio en algo bloated.
+
+## __2024-07-21__
+
+Encontre cositas de alpine linux. Para modificar los mirrors de `apk`
+se edita `/etc/apk/repositories`. Aca se puede cambiar la version
+cada vez que salga una nueva actualizacion mayor del SO y tambien se
+puede agregar la version "edge" para funcionar como una rolling
+release.
+
+Tambien, para conexiones LAN en redes virtuales, lo mas comodo fue
+usar zerotier. Esto permitio usar moonlight y sunshine como parsec.
