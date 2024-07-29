@@ -1,0 +1,6 @@
+// v1.0
+// These settings override both User and Default settings for the
+// Lua syntax
+{
+     "color_scheme": "Packages/Theme - One Dark/Widget - One Dark.tmTheme",
+}
