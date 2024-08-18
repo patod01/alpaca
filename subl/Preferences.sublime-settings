@@ -1,17 +1,18 @@
-// v1.1
+// v1.2
 // Code UI config
 {
 	"ignored_packages": ["Vintage"],
 	"color_scheme": "ayu-mirage.sublime-color-scheme",
 	"theme": "Default.sublime-theme",
-	// oldpc "color_scheme": "Monokai.sublime-color-scheme",
 	"tab_size": 5,
 	"translate_tabs_to_spaces": true,
 	// test "use_tab_stops": true,
 	"word_wrap": false,
 	"wrap_width": 69,
 	"rulers": [69, 80],
-	// oldpc "font_size": 11,
-	// default "index_files": true,
 	"close_deleted_files": false,
+	// `index_files` seems to be `true` by default
+	// "index_files": true,
+	"index_exclude_gitignore": false,
+	"always_show_minimap_viewport": true,
 }

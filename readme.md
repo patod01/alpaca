@@ -135,3 +135,24 @@ release.
 
 Tambien, para conexiones LAN en redes virtuales, lo mas comodo fue
 usar zerotier. Esto permitio usar moonlight y sunshine como parsec.
+
+## __2024-08-10__
+
+Hoy recupere el acceso a mi telefono por ssh mirando el historial de
+hace unos 5 a;os. Tremenda anecdota. Como nota de lo sucedido: es
+bueno saber que uno puede configurar puertos en
+`/etc/ssh/sshd_config`. Falta probar si se puede correr docker. Al
+menos, anoche descubri que puedo correr servidores desde el telefono.
+
+Por otro lado, descubri los cronjobs. Para usarlos, hay varias
+implementaciones, pero parece que la mas comun es `cronie`.
+
+## __2024-08-17__
+
+Parece que encontre la maquina virtual denitiva, KVM.
+
+para tener esto funcionando, en principio se necesita instalar `qemu`
+en su version full. Luego hay que seguir parte del tutorial de
+`proxmox` para instalar `VirtIO` (controladores para windows dentro
+de la VM) y asi deberia andar fluido. Tambien se menciona algo de
+que se llama "spice"... Lo recordare cuando instale la WM de nuevo.
