@@ -156,3 +156,19 @@ en su version full. Luego hay que seguir parte del tutorial de
 `proxmox` para instalar `VirtIO` (controladores para windows dentro
 de la VM) y asi deberia andar fluido. Tambien se menciona algo de
 que se llama "spice"... Lo recordare cuando instale la WM de nuevo.
+
+## __2025-01-05__
+
+Here we `Go`!
+
+## __2025-01-19__
+
+Hoy sabemos cosas. Hoy sabemos usar `.bashrc` y que parece que el
+mejor lugar para instalar mis cosas es en `$HOME/.local`. Aqui
+agregue manualmente la carpeta `bin`. Tal vez me gustaria hacer una
+carpeta aparte para scripts y que la otra sea realmente para
+binarios...
+
+## __2025-02-07__
+
+Sabias que los furros hacen cosas buenas? Rustdesk esta fuerte.
