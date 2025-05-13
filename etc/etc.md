@@ -46,3 +46,8 @@ https://trigger.dev/
 - pegasus
 - luvit
 - lapis
+
+# hacks
+
+any.run
+tria.ge

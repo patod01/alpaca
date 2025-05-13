@@ -172,3 +172,13 @@ binarios...
 ## __2025-02-07__
 
 Sabias que los furros hacen cosas buenas? Rustdesk esta fuerte.
+
+## __2025-05-07__
+
+`~/.local/share/applications/` es el lugar para los accesos directos.
+
+`desktop-file-validate` y `update-desktop-database` son de ayuda.
+
+## __2025-05-13__
+
+feliz cum a mi compu corriendo linux :D
