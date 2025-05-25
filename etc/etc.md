@@ -51,3 +51,8 @@ https://trigger.dev/
 
 any.run
 tria.ge
+
+# email services
+
+- mailerlite
+- mailgun

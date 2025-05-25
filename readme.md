@@ -181,4 +181,8 @@ Sabias que los furros hacen cosas buenas? Rustdesk esta fuerte.
 
 ## __2025-05-13__
 
-feliz cum a mi compu corriendo linux :D
+Feliz cum a mi compu corriendo linux :D.
+
+## __2025-05-16__
+
+Nuevo mejor amigo: `yay -Sc`
