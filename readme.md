@@ -186,3 +186,40 @@ Feliz cum a mi compu corriendo linux :D.
 ## __2025-05-16__
 
 Nuevo mejor amigo: `yay -Sc`
+
+## __2025-05-31__
+
+Parece que para buscar si un modulo perdido es necesario realmente,
+basta con usar `sudo dmesg | grep XXX`. Si no hay output, entonces se
+puede eliminar el mensaje.
+
+Para la eliminacion, se debe hacer lo siguiente:
+
+- `cp /usr/lib/initcpio/install/block /etc/initcpio/install/block`
+- en la copia, borrar (lineas 6 a 9):
+     - `sd_mod? sr_mod?`
+     - `scsi`
+     - `'scsi/.*ata'`, `|scsi`
+
+Parece que, para que surta efecto, hay que `mkinitcpio --allpresets`
+previo a reiniciar el equipo, terminando asi la eliminacion de las
+advertencias.
+
+## __2025-07-01__
+
+Trucos utiles para ser un hacker millonario:
+
+```
+systemctl list-units --type=service
+journalctl
+df
+lsblk
+```
+
+## __2025-07-15__
+
+Mails de cronie: `/var/spool/mail`. Para leer: `less $MAIL`.
+
+## __2025-07-21__
+
+Herramientas para imagenes: libvips, nip4
